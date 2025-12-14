@@ -1,0 +1,43 @@
+/* Основные стили сайта */
+body {
+  background-color: #f8f9fa;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Тёмная тема */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Карточки товаров */
+.card {
+  height: 100%;
+}
+
+/* Картинки товаров */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Верхнее меню фиксированное */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Красный цвет для дубликатов в корзине */
+.duplicate {
+  background-color: #f8d7da !important;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background: #212529;
+  color: white;
+}
